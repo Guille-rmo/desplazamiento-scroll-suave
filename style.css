@@ -1,0 +1,65 @@
+body, html {
+	font-family: 'Lato', Arial, sans-serif;
+}
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+/* - - - - - - - - - - - - - - - MENU - - - - - - - - - - - - - - - */
+
+#menu {
+	width: 100%;
+	position: fixed;
+	padding: 20px 0;
+	background-color: #5f9d72;
+	text-align: center;
+	z-index: 1;
+}
+#menu ul li {
+	display: inline;
+}
+#menu ul a {
+	font-family: 'Lato', Arial, sans-serif;
+	color: #FFF;
+	letter-spacing: 1px;
+	font-size: 12px;
+	font-weight: 300;
+	padding: 0px 10px;
+}
+#menu ul a:hover {
+	color: #395c44;
+	font-weight: 400;
+}
+
+/* - - - - - - - - - - - - - - - SECCION - - - - - - - - - - - - - - - */
+
+.seccion {
+	width: 100%;
+	padding: 300px 0;
+	position: relative;
+	float: left;
+	text-align: center;
+	color: #fff;
+	z-index: 0;
+	font-family: 'Lato', Arial, sans-serif;
+	color: #fff;
+	letter-spacing: 1px;
+	font-size: 35px;
+	font-weight: 700;
+}
+#seccion_1 {
+	background-color: #8ecea2;
+}
+#seccion_2 {
+	background-color: #c4e7ce;
+}
+#seccion_3 {
+	background-color: #8ecea2;
+}
+#seccion_4 {
+	background-color: #c4e7ce;
+}
+#seccion_5 {
+	background-color: #8ecea2;
+}
